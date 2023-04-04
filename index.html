@@ -5,26 +5,31 @@
   <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="main-display">
   <nav class="top-nav">
     <div class="container">
-      <a href="#">Devhints.io</a>
+      <a href="#" class="brand">Devhints.io</a>
       <div class="action">
         <ul class="social-list ">
           <li class="facebook">
-            <a href="#">link</a>
+            <a href="#">
+              <img src="assets/icons8-facebook-32.png" alt="">
+            </a>
           </li>
-          <li class="twiter">
-            <a href="#">link</a>
+          <li class="twitter">
+            <a href="#">
+              <img src="assets/icons8-twitter-32.png" alt="">
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="body-area">
+  <div class="body-area -slim">
     <div class="site-header" role="banner">
       <h1>Rico's cheatsheets</h1>
       <p>
@@ -35,121 +40,185 @@
         <label class="search-box">
           <span class="prefix">devhints.io</span>
           <span class="sep">/</span>
-          <input type="text" autofocus="" placeholder="Search...">
+          <input type="text" placeholder="Search...">
         </label>
       </form>
     </div>
-  </div>
-  <div class="pages-list" role="main">
-    <a href="#" class="item top-sheet -item-bash">
-      <span class="info">
-        <code class="slug">bash</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-      </span>
-    </a>
-    <a href="#" class="item top-sheet -item-bash">
-      <span class="info">
-        <code class="slug">bash</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-      </span>
-    </a>
-    <a href="#" class="item top-sheet -item-bash">
-      <span class="info">
-        <code class="slug">bash</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-      </span>
-    </a>
-    <a href="#" class="item top-sheet -item-bash">
-      <span class="info">
-        <code class="slug">bash</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-      </span>
-    </a>
-    <h2 class="category item">
-      <span>Recently updated</span>
-    </h2>
-    <!-- Recem update-->
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+    <div class="pages-list" role="main">
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <a href="#" class="article items">
-      <span class="info">
-        <code class="slug">clip</code>
-        <abbr class="attribute-peg">
-          <span>*</span>
-        </abbr>
-        <span class="title">
-          Command Line Interface Pages
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
         </span>
-      </span>
-    </a>
-    <div class="message item">
-      <h3>See somethings missing?</h3>
-      <p>
-        <a href="#" class="push-button">Request cheatsheets</a>
-      </p>
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+        </span>
+      </a>
+      <a href="#" class="item top-sheet -item-bash">
+        <span class="info">
+          <code class="slug">bash</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+        </span>
+      </a>
+      <h2 class="category item">
+        <span>Recently updated</span>
+      </h2>
+      <!-- Recem update-->
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <a href="#" class="article items">
+        <span class="info">
+          <code class="slug">clip</code>
+          <abbr class="attribute-peg">
+            <span>*</span>
+          </abbr>
+          <span class="title">
+            Command Line Interface Pages
+          </span>
+        </span>
+      </a>
+      <div class="message item">
+        <h3>See somethings missing?</h3>
+        <p>
+          <a href="#" class="push-button">Request cheatsheets</a>
+        </p>
+      </div>
     </div>
-  </div>
 </body>
 
 </html>
